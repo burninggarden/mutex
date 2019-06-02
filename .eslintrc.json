@@ -1,0 +1,91 @@
+{
+	"env": {
+		"es6":  true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"globals": {
+		"Atomics":           "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType":  "module",
+		"project":     "./tsconfig.json"
+	},
+	"rules": {
+		"indent": "off",
+		"no-control-regex": "off",
+		"no-unused-vars": "off",
+		"@typescript-eslint/ban-ts-ignore": "error",
+		"@typescript-eslint/camelcase": "error",
+		"@typescript-eslint/class-name-casing": "error",
+		"@typescript-eslint/explicit-function-return-type": ["error", {
+			"allowExpressions": true
+		}],
+		"@typescript-eslint/explicit-member-accessibility": "error",
+		"@typescript-eslint/generic-type-naming": "error",
+		"@typescript-eslint/indent": ["error", "tab"],
+		"@typescript-eslint/member-delimiter-style": ["error", {
+			"multiline": {
+					"delimiter": "semi",
+					"requireLast": true
+			},
+			"singleline": {
+					"delimiter":   "semi",
+					"requireLast": true
+			}
+		}],
+		"@typescript-eslint/member-ordering": ["error", {
+			"default": [
+				"public-static-field",
+				"protected-static-field",
+				"private-static-field",
+				"public-instance-field",
+				"protected-instance-field",
+				"private-instance-field",
+				"public-field",
+				"protected-field",
+				"private-field",
+				"static-field",
+				"instance-field",
+				"field",
+				"public-static-method",
+				"protected-static-method",
+				"private-static-method",
+				"constructor",
+				"public-instance-method",
+				"protected-instance-method",
+				"private-instance-method",
+				"public-method",
+				"protected-method",
+				"private-method",
+				"static-method",
+				"instance-method",
+				"method"
+			]
+		}],
+		"@typescript-eslint/no-misused-new": "error",
+		"@typescript-eslint/no-namespace": "error",
+		"@typescript-eslint/no-non-null-assertion": "error",
+		"@typescript-eslint/no-parameter-properties": "error",
+		"@typescript-eslint/no-this-alias": "error",
+		"@typescript-eslint/no-triple-slash-reference": "error",
+		"@typescript-eslint/no-type-alias": ["error", {
+			"allowCallbacks": "always",
+			"allowAliases":   "in-unions"
+		}],
+		"@typescript-eslint/no-unnecessary-type-assertion": "error",
+		"@typescript-eslint/no-unused-vars": ["error", {
+			"vars":               "all",
+			"args":               "none",
+			"ignoreRestSiblings": false
+		}],
+		"@typescript-eslint/no-use-before-define": "error",
+		"@typescript-eslint/no-useless-constructor": "error",
+		"@typescript-eslint/prefer-interface": "error",
+		"@typescript-eslint/restrict-plus-operands": "error"
+	}
+}

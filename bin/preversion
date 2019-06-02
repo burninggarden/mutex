@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# DON'T MODIFY THIS FILE DIRECTLY!
+# It was added automatically to this project via `botanist init`.
+# If you want to make a change or fix broken behavior in this file,
+# you should do so upstream in https://github.com/burninggarden/botanist.
+
+set -e
+
+npm run lint
+npm test

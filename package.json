@@ -1,0 +1,27 @@
+{
+	"name": "@burninggarden/mutex",
+	"description": "Utility for managing cross-process mutexes",
+	"version": "0.0.1",
+	"private": false,
+	"author": "Burning Garden",
+	"homepage": "https://burninggarden.com",
+	"repository": "https://github.com/burninggarden/mutex",
+	"main": "./dist/src/index.js",
+	"dependencies": {
+		"@types/node": "10.9.4",
+		"tap": "^12.6.1",
+		"typescript": "3.2.1"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^1.5.0",
+		"@typescript-eslint/parser": "^1.5.0",
+		"eslint": "^5.15.3"
+	},
+	"scripts": {
+		"install":     "./bin/install",
+		"test":        "./bin/test",
+		"lint":        "./bin/lint",
+		"preversion":  "./bin/preversion",
+		"postversion": "./bin/postversion"
+	}
+}
