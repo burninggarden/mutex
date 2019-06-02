@@ -8,7 +8,7 @@
 	"repository": "https://github.com/burninggarden/mutex",
 	"main": "./dist/src/index.js",
 	"dependencies": {
-		"@burninggarden/config": "0.0.4",
+		"@burninggarden/config": "0.0.6",
 		"@burninggarden/enums": "0.0.5",
 		"@burninggarden/filesystem": "0.0.2",
 		"@types/node": "10.9.4",
@@ -21,10 +21,10 @@
 		"eslint": "^5.15.3"
 	},
 	"scripts": {
-		"install": "./bin/install",
-		"test": "./bin/test",
-		"lint": "./bin/lint",
-		"preversion": "./bin/preversion",
+		"install":     "./bin/install",
+		"test":        "./bin/test",
+		"lint":        "./bin/lint",
+		"preversion":  "./bin/preversion",
 		"postversion": "./bin/postversion"
 	}
 }
