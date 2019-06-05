@@ -1,6 +1,6 @@
 {
 	"name": "@burninggarden/mutex",
-	"description": "Utility for managing cross-process mutexes",
+	"description": "FS-based mutex locks",
 	"version": "0.0.2",
 	"private": false,
 	"author": "Burning Garden",
@@ -21,10 +21,10 @@
 		"eslint": "^5.15.3"
 	},
 	"scripts": {
-		"install": "./bin/install",
-		"test": "./bin/test",
-		"lint": "./bin/lint",
-		"preversion": "./bin/preversion",
+		"install":     "./bin/install",
+		"test":        "./bin/test",
+		"lint":        "./bin/lint",
+		"preversion":  "./bin/preversion",
 		"postversion": "./bin/postversion"
 	}
 }
