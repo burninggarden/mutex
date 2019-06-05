@@ -12,7 +12,7 @@ class Mutex {
 		this.key = key;
 	}
 
-	public acquireSync() {
+	public acquireSync(): void {
 		this.ensureDirectoryExists();
 
 		const
