@@ -1,7 +1,7 @@
 {
 	"name": "@burninggarden/mutex",
 	"description": "FS-based mutex locks",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"private": false,
 	"author": "Burning Garden",
 	"homepage": "https://burninggarden.com",
