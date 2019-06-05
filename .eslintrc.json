@@ -16,6 +16,8 @@
 		"project":     "./tsconfig.json"
 	},
 	"rules": {
+		"no-console": "off",
+		"no-constant-condition": "off",
 		"indent": "off",
 		"no-control-regex": "off",
 		"no-unused-vars": "off",
